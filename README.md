@@ -9,7 +9,7 @@ Now that we have HTML and CSS [figured out](https://github.com/ccny-edm/javascri
 
 #### Part 1: Hello World
 
-Let's start from a new HTML document. This should look familiar.
+Let's start from a new HTML document. This should look familiar. Remember, you should type this in rather than using copy and paste.
 
 ```html
 <!DOCTYPE html>

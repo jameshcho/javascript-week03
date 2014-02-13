@@ -105,7 +105,7 @@ Next, instead of logging the user's response to the Firebug console, we will ins
 
 If all goes well, you should see `<p id="hello">` appear in your Firebug console. You can click on the logged element and inspect it within the HTML Firebug tab.
 
-Now we will take the response from the user, and place it into the hello paragram we've referenced in JavaScript.
+Now we will take the response from the user, and place it into the hello paragraph we've referenced in JavaScript.
 
 ```html
 <body>

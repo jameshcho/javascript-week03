@@ -137,8 +137,8 @@ Go ahead and replace paragraph tag with your own text (copy and paste is okay no
 
 ```html
 <body>
-    <p>About twenty years ago Jobs and Wozniak, the founders of Apple, came up with the very strange
-    idea of selling information processing machines for use in the home.</p>
+    <p>About twenty years ago Jobs and Wozniak, the founders of Apple, came up with the very
+    strange idea of selling information processing machines for use in the home.</p>
 ```
 
 Now pick out some words to replace, to create the placeholders for your Mad Lib. We will use `<span>` elements, each with a unique `id` attribute.
@@ -251,3 +251,28 @@ Here is how our finished example should look. Yours will not be exactly the same
     </body>
 </html>
 ```
+
+#### Part 5: Uploading to GitHub
+
+To turn in your assignment, create a [new repository](https://github.com/new) in GitHub (look for the plus button on the top-right of the page) and call it 'mad-lib'.
+
+Once you've done that, follow these instructions:
+
+1. Copy the repository URL from the Quick Setup box (it should start with `https://github.com/` and end with `mad-lib.git`)
+2. Open a command line terminal, and enter the following (instead of "[url]" paste your repo URL):  
+    
+    ```
+    cd ~/Desktop
+    git clone [url]
+    cd mad-lib
+    ```
+3. Find that folder on your computer's desktop and copy the file you've been working on into it. Rename it as "mad-lib.html".
+4. Back to the command line terminal:  
+    
+    ```
+    git add mad-lib.html
+    git commit -m "First commit"
+    git push
+    ```
+5. Double-check that your file shows up on the GitHub website.
+6. Finally, update your github.io web page with a link to your new creation.

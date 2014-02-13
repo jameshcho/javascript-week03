@@ -137,14 +137,18 @@ Go ahead and replace paragraph tag with your own text (copy and paste is okay no
 
 ```html
 <body>
-    <p>About twenty years ago Jobs and Wozniak, the founders of Apple, came up with the very strange idea of selling information processing machines for use in the home.</p>
+    <p>About twenty years ago Jobs and Wozniak, the founders of Apple, came up with the very strange
+    idea of selling information processing machines for use in the home.</p>
 ```
 
 Now pick out some words to replace, to create the placeholders for your Mad Lib. We will use `<span>` elements, each with a unique `id` attribute.
 
 ```html
 <body>
-    <p>About <span id="number">(number)</span> years ago <span id="name-1">(name)</span> and <span id="name-2">(name)</span>, the founders of <span id="company">(company)</span>, came up with the very strange idea of selling <span id="noun">(noun)</span> for use in the <span id="place">(place)</span>.</p>
+    <p>About <span id="number">(number)</span> years ago <span id="name-1">(name)</span> and
+    <span id="name-2">(name)</span>, the founders of <span id="company">(company)</span>, came
+    up with the very strange idea of selling <span id="noun">(noun)</span> for use in the
+    <span id="place">(place)</span>.</p>
 ```
 
 Notice each `id` attribute is unique—if there are more than one "name" or "noun" replacements, just add a number to distinguish between them.
@@ -230,7 +234,10 @@ Here is how our finished example should look. Yours will not be exactly the same
         </style>
     </head>
     <body>
-        <p>About <span id="number">(number)</span> years ago <span id="name-1">(name)</span> and <span id="name-2">(name)</span>, the founders of <span id="company">(company)</span>, came up with the very strange idea of selling <span id="noun">(noun)</span> for use in the <span id="place">(place)</span>.</p>
+        <p>About <span id="number">(number)</span> years ago <span id="name-1">(name)</span>
+        and <span id="name-2">(name)</span>, the founders of <span id="company">(company)</span>,
+        came up with the very strange idea of selling <span id="noun">(noun)</span> for use in
+        the <span id="place">(place)</span>.</p>
         <script>
     
         document.getElementById('number').innerHTML  = prompt('[1/6] Enter a number');
